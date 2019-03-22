@@ -1,3 +1,8 @@
+/*
+
+
+*/
+
 header{
   width:100%;
   padding-top:1.5%;
@@ -5,6 +10,8 @@ header{
   border-bottom: 2px dashed @navigation-border;
 
 }
+
+
 .home {
 
 
@@ -17,6 +24,9 @@ header{
     p{
       padding-bottom:2%;
     }
+    @media @mobile{
+      padding-bottom: 3%;
+    }
 
   }
 
@@ -25,19 +35,32 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media @mobile{
+      flex-direction:column;
+      align-items: center;
+    }
 
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+      @media @mobile{
+        width:100%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      @media @mobile{
+        width:100%;
+      }
 
       img {
         border-radius: 10px;
+        @media @mobile{
+          width:100%;
+        }
       }
     }
   }
@@ -45,6 +68,11 @@ header{
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    @media @mobile{
+      flex-direction:column-reverse;
+      align-items: center;
+    }
+    
 
     .text-content {
       padding-left: 1%;
@@ -60,6 +88,9 @@ header{
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile{
+      width:100%;
+    }
 
     img {
       border-radius: 10px;
@@ -71,12 +102,23 @@ header{
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media @mobile{
+      .flex(@flex-direction:column, @align:center, @justify:center)
+    }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media @mobile{
+        width:85%;
+      }
       .btn{
-        .button();
+        .button(@button-width:78%);
+        @media @mobile{
+          width:100%;
+          font-size:1.8rem;
+          padding:3%;
+        }
       }
     }
   }

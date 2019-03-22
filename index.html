@@ -8,6 +8,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -15,6 +17,15 @@
 </head>
 
 <body>
+    <!--
+      NOTE:
+      I placed the header outside of the main "container" div because based on the design file, for the following reasons: 
+      
+      1) Based on the design file for desktop and how it is truncated, it's unclear whether the bottom border of the header part (where the navigation section lives)should extend to the end of the browser window/viewport. 
+
+      2) The footer section extends to the end of the viewport/browser window (at least what I can see on the design file) and it seems more stylistically consistent that the header mirror the footer. 
+    
+    -->
     <header>
         <div class="navigation">
             <h1>Fun Bus</h1>

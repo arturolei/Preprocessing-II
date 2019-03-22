@@ -9,12 +9,20 @@
     @media @mobile{
         .flex(@flex-direction:column)
     }
+
+    h1{
+        @media @mobile{
+            margin:2% auto;
+            font-size:3rem;
+        }
+    }
     nav{
         .flex(@justify:space-around);
         width:45%;
         padding: 0 1%;
         @media @mobile{
             width:100%;
+            justify-content:space-evenly;
         }
         a{
             text-decoration:none;
@@ -22,6 +30,9 @@
             font-size: 1.6rem;
             text-align:center;
             padding:1%;
+            @media @mobile{
+                padding:0%;
+            }
         }
     }
 }

@@ -15,11 +15,14 @@
 
 .button(@background-color:@eastern-blue, @button-width:78%){
     width:@button-width;
-    background-color:darken(@eastern-blue, 10%);
+    background-color:darken(@background-color, 8%);
     color:@white;
     text-align:center;
     font-size:1.7rem;
     padding: 5%;
     border-radius:12px;
+    @media @mobile{
+        width:100%;
+    }
  
 }
