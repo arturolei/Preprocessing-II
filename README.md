@@ -45,5 +45,21 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 * [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
 * [ ] Style the site to look good at all sizes, not just desktop and phone
 
+## Notes:
 
+## Pull Request Link:
+[https://github.com/arturolei/Preprocessing-II/pull/1](https://github.com/arturolei/Preprocessing-II/pull/1)
+
+### What I Accomplished:
+- I completed the MVP for Preprocessing II and read the TK. I also studied on my own mixins and functions in less. 
+
+
+### What I need to finish before tomorrow:
+- I need to prep for the sprint and review any potential weakpoints I have and revise how I approach design projects (focus less on the details and more on the gestalt or the bigger picture)
+- I want to go back and refactor a lot of my old projects before
+
+### Breakthroughs/Blockers
+- I am beginning to get the hang of breaking down what would have been a long, barely readable CSS into readable components. I still need to get used to using variables and employing mixins actively, not just because the assignment asks me to. I understand the utitility; it's more about the strategic use thereof.
+- The design file was unclear with regard to what the bottom border of the header section was supposed to be. However, I think this reflects "real life" more, where design might not be clear-cut; sometimes judgment calls are needed. 
+- I keep forgetting the viewport bit in the <head>
 
